@@ -1,0 +1,53 @@
+Fehlt noch:
+-----------
+✔ Client Settings speichern:
+	✔ Klingelton
+	✔ Letzte Serveradresse
+	✔ Letzer Login
+✔ Status-Anzeige der Kontakte (online, offline, am Telefon)
+	✔ wenn Partner offline, Chat immer noch nutzbar und so Zeug
+
+Bugs und sonstiges:
+-------------------
+✔ Design: Call buttons sind leicht zu weit links
+	✔ FlowLayout nach rechts verschieben + unnötiges "Glue" element löschen
+✔ Wenn Chat geöffnet und Partner schließt Programm problem?
+✔ Raum nur sperren und betreten, wenn alle Teilnehmer zugesagt haben -> ka ob schon drin
+✔ Nach dem Auflegen Contact Label weg, aber Chat noch da 
+✔ das selbe bei dialing...
+✔ PopUp Fenster schließt sich zu schnell bei Nicht-Annahme des Telefonats
+✔ Manche Logs werden mit "+"-Symbolen eingetragen...
+✔ Bei Abgelehntem Telefonat steht immer noch "Dialing..." dran, statt "abgelehnt" oder so
+✔ zeigt Logged in as, before logged in
+	✔ wird auch als online angezeigt bevor eingeloggt
+✔ neuer Client wird nicht direkt in Kontaktliste aufgenommen -> ging von selber sobald erste login
+✔ bei der Registrierung eines bestehenden Account gibt es eine Fehlermeldung in der Konsole
+	aber es steht "Account registered" dran
+✔ nach Server Neustart alle Kontakte weg
+✔ umlaute im chat
+✔ chat mit scroll bar
+✔ contacts mit scroll bar
+✔ Login failed in rot
+✔ Client iD in optionen löschen
+- Neuen Username speichern
+
+TODO:
+-----
+✔ Farbliche untescheidung wenn offline, am Telefon 
+✔ LoginWindow: "Apply and Exit" to "Login" 
+✔ visuall feedback wenn einstellungen geändert werden
+	✔ grüner Text "Einstellung gespeichert"?
+✔ Kontakliste kleiner oder breiter machen 
+❌ Hoverinformation -> unnötig / störend
+❌ Schon mit anderem Gerät eingeloggt Meldung bei Login -> muss auch ohne!
+✔ Neues Icon für Bar und Fenster
+- Refactoring
+- Kommentieren und unnötige Kommentare aus der Window-Definition in Main/Login/Options/PopUp entfernen
+- Standard-Login entfernen
+- READ.me schreiben und Projekt erklären
+	-> Anleitung zum Erstellen zweier Accounts mit denen getestet werden kann
+
+- Server Dateien umbennen?
+- ContactList direkt gut darstellen
+
+=> Als jar Datei deployen
