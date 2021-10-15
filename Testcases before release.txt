@@ -1,7 +1,0 @@
-- Registrieren eines neuen Benutzers
-- Login des neuen Benutzers
-- Chatfunktion
-- Anruffunktion
-- Einstellung ausprobieren
-
-- Mehrfaches starten der Clients gleichzeitig
